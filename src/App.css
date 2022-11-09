@@ -1,0 +1,20 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.pageTitle {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  /* font-family: "Montserrat", sans-serif; */
+  font-size: clamp(28px, 5vw, 35px);
+  padding: 10px 0 4px 0;
+  border-radius: 50px;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .pageTitle {
+    padding: 0px 0 4px 0;
+  }
+}
